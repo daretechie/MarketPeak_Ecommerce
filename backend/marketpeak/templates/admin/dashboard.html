@@ -1,0 +1,11 @@
+{% extends 'admin/base_site.html' %}
+{% block content %}
+<h1>Order Analytics Dashboard</h1>
+<ul>
+    <li><strong>Total Orders:</strong> {{ total_orders }}</li>
+    <li><strong>Total Sales (Completed):</strong> ${{ total_sales }}</li>
+    <li><strong>Pending Orders:</strong> {{ pending_orders }}</li>
+    <li><strong>Shipped Orders:</strong> {{ shipped_orders }}</li>
+    <li><strong>Completed Orders:</strong> {{ completed_orders }}</li>
+</ul>
+{% endblock %} 
