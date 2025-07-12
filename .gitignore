@@ -122,3 +122,5 @@ yarn-error.log
 # OS-specific
 .DS_Store
 Thumbs.db
+backend/nohup.out
+backend/staticfiles/
